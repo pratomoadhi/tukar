@@ -1,27 +1,26 @@
-# Face Recognition and PDF Translation Project
+# PDF Translation
 
-This project consists of a backend API for face recognition and a frontend Flutter application for PDF upload and translation.
+This project consists of a backend API for translation and a frontend Flutter application for PDF upload.
 
 ## Project Structure
 
 The project is organized into the following directories:
 
-* `backend`: Contains the Face Recognition API built with FastAPI.
-* `frontend`: Contains the Flutter application for PDF upload and translation.
+* `backend`: Contains the Translation API built with FastAPI.
+* `frontend`: Contains the Flutter application for PDF upload.
 
-## Backend: Face Recognition API (FastAPI)
+## Backend: Translation API (FastAPI)
 
 ### Features
 
-* Face recognition functionality.
-* API endpoints for face detection and identification.
+* Sentence translation functionality.
+* API endpoints for file upload and translation.
 * Built with FastAPI framework.
 
 ### Technologies Used
 
 * FastAPI
 * Python
-* \[Add any other specific libraries used, e.g., OpenCV, face\_recognition]
 
 ### Setup Instructions
 
@@ -33,8 +32,7 @@ The project is organized into the following directories:
 ### Endpoints
 
 * \[List the API endpoints and their functionalities, e.g.,
-    * `POST /detect_faces`: Detects faces in an image.
-    * `POST /identify_faces`: Identifies faces in an image.
+    * `POST /translate-pdf`: Translate uploaded pdf content.
     ]
 
 ## Frontend: PDF Upload and Translation (Flutter)
@@ -42,7 +40,6 @@ The project is organized into the following directories:
 ### Features
 
 * PDF upload functionality.
-* Translation of PDF content.
 * User-friendly interface.
 * Built with Flutter.
 
